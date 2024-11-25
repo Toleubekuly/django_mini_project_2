@@ -1,0 +1,187 @@
+INFO 2024-11-24 23:29:03,397 autoreload Watching for file changes with StatReloader
+INFO 2024-11-24 23:29:04,785 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2024-11-24 23:29:04,817 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-11-24 23:29:04,893 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+INFO 2024-11-24 23:29:05,009 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2024-11-24 23:29:05,020 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2024-11-24 23:29:05,022 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-11-24 23:29:05,022 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-11-24 23:29:05,024 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2024-11-24 23:29:05,026 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2024-11-24 23:29:05,027 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+WARNING 2024-11-24 23:29:05,093 log Not Found: /favicon.ico
+WARNING 2024-11-24 23:29:05,093 basehttp "GET /favicon.ico HTTP/1.1" 404 2960
+INFO 2024-11-24 23:29:41,413 autoreload Watching for file changes with StatReloader
+INFO 2024-11-24 23:29:44,383 signals User logged in: admin
+INFO 2024-11-24 23:29:44,388 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-11-24 23:29:44,450 basehttp "GET /admin/ HTTP/1.1" 200 9166
+INFO 2024-11-24 23:29:44,545 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-11-24 23:29:44,561 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-11-24 23:29:44,562 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-11-24 23:29:51,543 basehttp "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 13038
+INFO 2024-11-24 23:29:51,592 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2024-11-24 23:29:51,598 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-11-24 23:29:51,608 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2024-11-24 23:29:51,608 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-11-24 23:29:51,608 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2024-11-24 23:29:51,613 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-11-24 23:29:51,615 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-11-24 23:29:51,623 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-11-24 23:29:51,626 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-11-24 23:29:51,630 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 23:29:51,633 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-11-24 23:29:51,665 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-11-24 23:29:51,696 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-11-24 23:29:51,697 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-11-24 23:32:17,608 basehttp "GET /admin/django_celery_beat/intervalschedule/ HTTP/1.1" 200 9642
+INFO 2024-11-24 23:32:17,687 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 23:32:19,831 basehttp "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 13038
+INFO 2024-11-24 23:32:19,912 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 23:32:20,729 basehttp "GET /admin/django_celery_beat/solarschedule/ HTTP/1.1" 200 9651
+INFO 2024-11-24 23:32:20,785 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 23:32:23,304 basehttp "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 13038
+INFO 2024-11-24 23:32:23,370 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 23:32:24,375 basehttp "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 9635
+INFO 2024-11-24 23:32:24,421 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 23:32:26,401 basehttp "GET /admin/django_celery_beat/clockedschedule/ HTTP/1.1" 200 9633
+INFO 2024-11-24 23:32:26,448 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 23:32:27,408 basehttp "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 13038
+INFO 2024-11-24 23:32:27,482 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 23:33:51,181 basehttp "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 302 0
+INFO 2024-11-24 23:34:01,212 basehttp "GET /admin/django_celery_beat/periodictask/add/ HTTP/1.1" 200 34817
+INFO 2024-11-24 23:34:01,288 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+INFO 2024-11-24 23:34:01,298 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-11-24 23:34:01,301 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-11-24 23:34:01,302 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-11-24 23:34:01,304 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-11-24 23:34:01,316 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2024-11-24 23:34:01,318 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-11-24 23:34:01,412 log Not Found: /favicon.ico
+INFO 2024-11-24 23:34:01,421 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-11-24 23:34:01,423 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-11-24 23:34:17,260 basehttp "GET /admin/django_celery_beat/intervalschedule/add/?_to_field=id&_popup=1 HTTP/1.1" 200 8408
+INFO 2024-11-24 23:34:17,370 basehttp "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+INFO 2024-11-24 23:34:17,386 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 23:34:17,389 basehttp "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-11-24 23:34:49,365 basehttp "POST /admin/django_celery_beat/intervalschedule/add/?_to_field=id&_popup=1 HTTP/1.1" 200 329
+INFO 2024-11-24 23:34:49,394 basehttp "GET /static/admin/js/popup_response.js HTTP/1.1" 200 532
+INFO 2024-11-24 23:35:52,750 basehttp "POST /admin/django_celery_beat/periodictask/add/ HTTP/1.1" 302 0
+INFO 2024-11-24 23:35:52,794 basehttp "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 16449
+INFO 2024-11-24 23:35:52,907 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 23:35:52,910 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-11-24 23:35:52,910 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2024-11-24 23:35:54,361 basehttp "GET /admin/django_celery_beat/periodictask/add/ HTTP/1.1" 200 34857
+INFO 2024-11-24 23:35:54,433 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 23:35:57,106 basehttp "GET /admin/django_celery_beat/intervalschedule/add/?_to_field=id&_popup=1 HTTP/1.1" 200 8408
+INFO 2024-11-24 23:35:57,226 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 23:37:01,966 basehttp "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 16196
+INFO 2024-11-24 23:38:26,899 autoreload /home/ertugan/Documents/project/StudentManagementSystem/notifications/tasks.py changed, reloading.
+INFO 2024-11-24 23:38:27,670 autoreload Watching for file changes with StatReloader
+INFO 2024-11-24 23:50:38,838 views Attendance created: Student John Doe, Course Math, Status late
+WARNING 2024-11-24 23:50:39,182 log Forbidden: /api/courses/
+INFO 2024-11-24 23:50:39,738 views Grade created: Student John Doe, Course Math, Grade 85.00, Teacher teacher
+WARNING 2024-11-24 23:50:41,565 log Forbidden: /api/users/16/role/
+INFO 2024-11-24 23:50:50,835 views Attendance created: Student John Doe, Course Math, Status late
+INFO 2024-11-24 23:50:58,948 views Attendance created: Student John Doe, Course Math, Status late
+WARNING 2024-11-24 23:50:59,302 log Forbidden: /api/courses/
+WARNING 2024-11-24 23:51:39,816 log Not Found: /api/users/
+WARNING 2024-11-24 23:51:40,367 log Not Found: /api/users/3/
+WARNING 2024-11-24 23:57:02,550 log Forbidden: /api/courses/
+WARNING 2024-11-24 23:57:02,886 log Not Found: /api/courses/3/
+WARNING 2024-11-24 23:57:03,238 log Not Found: /api/courses/4/
+WARNING 2024-11-24 23:57:03,977 log Not Found: /api/courses/7/
+WARNING 2024-11-24 23:57:04,334 log Not Found: /api/courses/8/
+WARNING 2024-11-25 00:00:07,973 log Forbidden: /api/courses/
+WARNING 2024-11-25 00:00:08,319 log Forbidden: /api/courses/3/
+WARNING 2024-11-25 00:00:08,666 log Forbidden: /api/courses/4/
+WARNING 2024-11-25 00:02:23,228 log Forbidden: /api/courses/
+WARNING 2024-11-25 00:02:23,565 log Forbidden: /api/courses/3/
+WARNING 2024-11-25 00:02:24,038 log Forbidden: /api/courses/4/
+WARNING 2024-11-25 00:03:20,943 log Forbidden: /api/courses/
+WARNING 2024-11-25 00:03:21,336 log Forbidden: /api/courses/3/
+WARNING 2024-11-25 00:03:21,802 log Forbidden: /api/courses/4/
+WARNING 2024-11-25 00:03:23,565 log Method Not Allowed: /api/enrollments/
+WARNING 2024-11-25 00:03:24,013 log Forbidden: /api/enrollments/
+INFO 2024-11-25 00:03:24,429 views Enrollment created for student John Doe in course Math
+WARNING 2024-11-25 00:03:24,897 log Bad Request: /api/enrollments/
+WARNING 2024-11-25 00:03:47,566 log Forbidden: /api/courses/
+WARNING 2024-11-25 00:03:47,916 log Forbidden: /api/courses/3/
+WARNING 2024-11-25 00:03:48,261 log Forbidden: /api/courses/4/
+WARNING 2024-11-25 00:03:49,674 log Method Not Allowed: /api/enrollments/
+WARNING 2024-11-25 00:03:50,090 log Forbidden: /api/enrollments/
+INFO 2024-11-25 00:03:50,544 views Enrollment created for student John Doe in course Math
+WARNING 2024-11-25 00:03:50,971 log Bad Request: /api/enrollments/
+WARNING 2024-11-25 00:05:08,667 log Forbidden: /api/courses/
+WARNING 2024-11-25 00:05:09,008 log Forbidden: /api/courses/3/
+WARNING 2024-11-25 00:05:09,341 log Forbidden: /api/courses/4/
+WARNING 2024-11-25 00:05:11,288 log Forbidden: /api/enrollments/
+INFO 2024-11-25 00:05:11,693 views Enrollment created for student John Doe in course Math
+WARNING 2024-11-25 00:05:12,122 log Bad Request: /api/enrollments/
+WARNING 2024-11-25 00:06:40,749 log Forbidden: /api/courses/
+WARNING 2024-11-25 00:06:41,088 log Forbidden: /api/courses/3/
+WARNING 2024-11-25 00:06:41,425 log Forbidden: /api/courses/4/
+WARNING 2024-11-25 00:06:43,088 log Forbidden: /api/enrollments/
+INFO 2024-11-25 00:06:43,435 views Enrollment created for student John Doe in course Math
+WARNING 2024-11-25 00:06:43,775 log Bad Request: /api/enrollments/
+INFO 2024-11-25 00:23:47,585 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-25 00:24:01,309 log Not Found: /admin/swagger/
+WARNING 2024-11-25 00:24:01,309 basehttp "GET /admin/swagger/ HTTP/1.1" 404 6571
+INFO 2024-11-25 00:24:07,196 basehttp "GET /swagger/ HTTP/1.1" 200 2232
+INFO 2024-11-25 00:24:07,247 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2024-11-25 00:24:07,253 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2024-11-25 00:24:07,261 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+INFO 2024-11-25 00:24:07,265 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2024-11-25 00:24:07,267 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2024-11-25 00:24:07,271 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2024-11-25 00:24:07,275 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2024-11-25 00:24:07,428 basehttp "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2024-11-25 00:24:07,492 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 20948
+INFO 2024-11-25 00:24:10,828 basehttp "GET /swagger/ HTTP/1.1" 200 2232
+INFO 2024-11-25 00:37:38,242 signals User logged in: testuser
+WARNING 2024-11-25 00:37:38,248 log Not Found: /api/some-endpoint/
+INFO 2024-11-25 00:37:38,462 views Attendance created: Student John Doe, Course Math, Status late
+WARNING 2024-11-25 00:37:39,170 log Forbidden: /api/courses/
+WARNING 2024-11-25 00:37:39,505 log Forbidden: /api/courses/5/
+WARNING 2024-11-25 00:37:39,845 log Forbidden: /api/courses/6/
+WARNING 2024-11-25 00:37:41,552 log Forbidden: /api/enrollments/
+INFO 2024-11-25 00:37:41,893 views Enrollment created for student John Doe in course Math
+WARNING 2024-11-25 00:37:42,236 log Bad Request: /api/enrollments/
+INFO 2024-11-25 00:37:42,419 views Grade created: Student John Doe, Course Math, Grade 85.00, Teacher teacher
+INFO 2024-11-25 00:39:36,001 signals User logged in: testuser
+WARNING 2024-11-25 00:39:36,006 log Not Found: /api/some-endpoint/
+INFO 2024-11-25 00:39:36,211 views Attendance created: Student John Doe, Course Math, Status late
+WARNING 2024-11-25 00:39:36,991 log Forbidden: /api/courses/
+WARNING 2024-11-25 00:39:37,325 log Forbidden: /api/courses/4/
+WARNING 2024-11-25 00:39:37,674 log Forbidden: /api/courses/5/
+WARNING 2024-11-25 00:39:39,361 log Forbidden: /api/enrollments/
+INFO 2024-11-25 00:39:39,718 views Enrollment created for student John Doe in course Math
+WARNING 2024-11-25 00:39:40,057 log Bad Request: /api/enrollments/
+INFO 2024-11-25 00:39:40,246 views Grade created: Student John Doe, Course Math, Grade 85.00, Teacher teacher
+INFO 2024-11-25 00:40:41,218 signals User logged in: testuser
+WARNING 2024-11-25 00:40:41,224 log Not Found: /api/some-endpoint/
+WARNING 2024-11-25 00:40:41,415 log Unauthorized: /api/courses/1/
+INFO 2024-11-25 00:41:25,769 signals User logged in: testuser
+WARNING 2024-11-25 00:41:25,774 log Not Found: /api/some-endpoint/
+WARNING 2024-11-25 00:41:25,982 log Unauthorized: /api/courses/1/
+INFO 2024-11-25 00:42:51,241 signals User logged in: testuser
+WARNING 2024-11-25 00:42:51,247 log Not Found: /api/some-endpoint/
+WARNING 2024-11-25 00:42:51,427 log Unauthorized: /api/courses/1/
+INFO 2024-11-25 00:43:25,026 signals User logged in: testuser
+WARNING 2024-11-25 00:43:25,031 log Not Found: /api/some-endpoint/
+WARNING 2024-11-25 00:43:25,217 log Unauthorized: /api/courses/1/
+INFO 2024-11-25 00:44:19,301 signals User logged in: testuser
+WARNING 2024-11-25 00:44:19,309 log Not Found: /api/some-endpoint/
+INFO 2024-11-25 00:45:23,689 autoreload Watching for file changes with StatReloader
+INFO 2024-11-25 00:45:25,801 basehttp "GET /swagger/ HTTP/1.1" 200 2232
+INFO 2024-11-25 00:45:26,065 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 20467
+INFO 2024-11-25 00:46:07,863 autoreload /home/ertugan/Documents/project/StudentManagementSystem/StudentManagementSystem/urls.py changed, reloading.
+INFO 2024-11-25 00:46:08,389 autoreload Watching for file changes with StatReloader
+INFO 2024-11-25 00:46:10,710 basehttp "GET /swagger/ HTTP/1.1" 200 2232
+INFO 2024-11-25 00:46:10,927 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 20323
+INFO 2024-11-25 00:50:40,680 views Grade created: Student John Doe, Course Math, Grade 85.00, Teacher teacher
+WARNING 2024-11-25 00:50:40,873 log Not Found: /api/grades/3/
+INFO 2024-11-25 00:52:52,146 views Grade created: Student John Doe, Course Math, Grade 85.00, Teacher teacher
+INFO 2024-11-25 00:52:52,351 views Grade updated: Student John Doe, Course Math, Grade 95.00, Teacher teacher
+INFO 2024-11-25 00:53:01,360 autoreload Watching for file changes with StatReloader
+INFO 2024-11-25 00:53:03,484 basehttp "GET /swagger/ HTTP/1.1" 200 2232
+INFO 2024-11-25 00:53:03,859 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 21376
